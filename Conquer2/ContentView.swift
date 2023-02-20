@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         view.backgroundColor = .white
 
         view.addSubview(tableView)
+        let tapGesture = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+            view.addGestureRecognizer(tapGesture)
 
         // Set up table view constraints
         tableView.translatesAutoresizingMaskIntoConstraints = false
@@ -46,6 +48,7 @@ class ViewController: UIViewController {
         // Set up amount text field
         amountTextField.placeholder = "Enter amount"
         amountTextField.borderStyle = .roundedRect
+        amountTextField.keyboardType = .numberPad // Set keyboard type to number pad
         debtInputView.addSubview(amountTextField)
 
         // Set up date picker
@@ -91,5 +94,9 @@ class ViewController: UIViewController {
     @objc func testButtonTapped() {
         print("Test button tapped")
     }
+    
 
 }
+
+
+
