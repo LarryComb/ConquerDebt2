@@ -14,6 +14,7 @@
 		46046F7C29A1B05B005753CC /* Conquer2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46046F7B29A1B05B005753CC /* Conquer2Tests.swift */; };
 		46046F8629A1B05B005753CC /* Conquer2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46046F8529A1B05B005753CC /* Conquer2UITests.swift */; };
 		46046F8829A1B05B005753CC /* Conquer2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46046F8729A1B05B005753CC /* Conquer2UITestsLaunchTests.swift */; };
+		46046F9529A31E4B005753CC /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46046F9429A31E4A005753CC /* Calculations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		46046F8129A1B05B005753CC /* Conquer2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Conquer2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46046F8529A1B05B005753CC /* Conquer2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conquer2UITests.swift; sourceTree = "<group>"; };
 		46046F8729A1B05B005753CC /* Conquer2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conquer2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		46046F9429A31E4A005753CC /* Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				46046F6A29A1B059005753CC /* Conquer2App.swift */,
 				46046F6C29A1B059005753CC /* ContentView.swift */,
+				46046F9429A31E4A005753CC /* Calculations.swift */,
 				46046F6E29A1B05B005753CC /* Assets.xcassets */,
 				46046F7029A1B05B005753CC /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46046F6D29A1B059005753CC /* ContentView.swift in Sources */,
+				46046F9529A31E4B005753CC /* Calculations.swift in Sources */,
 				46046F6B29A1B059005753CC /* Conquer2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
