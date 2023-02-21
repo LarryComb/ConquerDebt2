@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         view.backgroundColor = .black
         
         // Set up an Add another Input field button that creates another tableView cell
-        addInputButton.setTitle("ADD Another Card", for: .normal)
+        addInputButton.setTitle("Add Another Form", for: .normal)
         addInputButton.backgroundColor = .systemBlue
         tableView.addSubview(addInputButton)
         addInputButton.frame = CGRect(x: 100, y: 100, width: 200, height: 50)
