@@ -6,6 +6,7 @@
 //
 import UIKit
 
+
 class ViewController: UIViewController {
 
     let tableView = UITableView()
@@ -18,8 +19,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .black
+        view.backgroundColor = .white
         
+        
+
         // Set up an Add another Input field button that creates another tableView cell
         addInputButton.setTitle("Add Another Form", for: .normal)
         addInputButton.backgroundColor = .systemBlue
@@ -43,12 +46,12 @@ class ViewController: UIViewController {
         // Set table view background color and corner radius
             tableView.backgroundColor = .systemCyan
             tableView.layer.cornerRadius = 25
-
+        
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(UIView.endEditing))
         view.addGestureRecognizer(tapGesture)
 
         // Set up debt input view
-        debtInputView.backgroundColor = .systemBlue
+        debtInputView.backgroundColor = .orange
         view.addSubview(debtInputView)
 
         // Set up debt input view constraints
@@ -148,9 +151,13 @@ class ViewController: UIViewController {
             return headerView
         }
 
-        @objc func addButtonTapped(sender: UIButton) {
-            print("Add button tapped for section \(sender.tag)")
-        }
+            @objc func addButtonTapped(sender: UIButton) {
+                addInputButton.backgroundColor = .orange
+            }
+            
+           
+            
+
     }
 
 
